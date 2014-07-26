@@ -1,0 +1,13 @@
+.fbchart-label {
+    fill: black;
+    font-size: 16px;
+}
+.fbchart-rect {
+    stroke: rgb(0, 148, 207);
+    fill: none;
+}
+.fbchart-circle {
+    stroke: white;
+    stroke-width: 2px;
+    opacity: .8;
+}

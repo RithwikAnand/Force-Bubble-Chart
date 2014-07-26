@@ -1,0 +1,601 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Force Bubble Chart - Filter Usecase</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="content">
+            <div class="fbchart-widget-container mobi-box-wrap">
+                <div class="filter-content">
+                    <div class="filter-title-content">
+                        <span class="title">Filter</span>
+                        <span class="filter-hide-icon">***</span>
+                    </div>
+                    <div class="filter-main-content">
+                        <div class="filter-group" data-filter-name="brand">
+                            <div class="filter-name">
+                                <span class="filter-name-text">Brand</span>
+                                <span class="filter-name-no"></span>
+                                <span class="filter-clear-text">clear</span>
+                                <span class="filter-collapse-icon" data-collapse-state="collapsed">[+]</span>
+                            </div>
+                            <div class="filter-value-group">
+                                <div class="filter-value" data-filter-value="Apple">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">Apple</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="BlackBerry">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">BlackBerry</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="Karbonn">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">Karbonn</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="LG">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">LG</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="Lava">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">Lava</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="Lenovo">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">Lenovo</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="Micromax">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">Micromax</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="Motorola">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">Motorola</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="Nokia">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">Nokia</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="Samsung">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">Samsung</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="Sony">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">Sony</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-group" data-filter-name="priceRange">
+                            <div class="filter-name">
+                                <span class="filter-name-text">Price Range</span>
+                                <span class="filter-name-no"></span>
+                                <span class="filter-clear-text">clear</span>
+                                <span class="filter-collapse-icon" data-collapse-state="collapsed">[+]</span>
+                            </div>
+                            <div class="filter-value-group">
+                                <div class="filter-value" data-filter-value="1000 - 5000">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">Rs 1000 - 5000</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="5000 - 10000">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">Rs 5000 - 10000</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="10000 - 15000">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">Rs 10000 - 15000</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="15000 - 20000">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">Rs 15000 - 20000</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="20000 - 25000">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">Rs 20000 - 25000</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="25000 - 30000">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">Rs 25000 - 30000</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="30000 - 35000">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">Rs 30000 - 35000</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="35000 - 40000">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">Rs 35000 - 40000</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="40000 - 45000">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">Rs 40000 - 45000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-group" data-filter-name="popularityRange">
+                            <div class="filter-name">
+                                <span class="filter-name-text">Popularity Range</span>
+                                <span class="filter-name-no"></span>
+                                <span class="filter-clear-text">clear</span>
+                                <span class="filter-collapse-icon" data-collapse-state="collapsed">[+]</span>
+                            </div>
+                            <div class="filter-value-group">
+                                <div class="filter-value" data-filter-value="0 - 10">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">0% - 10%</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="10 - 20">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">10% - 20%</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="20 - 30">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">20% - 30%</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="30 - 40">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">30% - 40%</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="40 - 50">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">40% - 50%</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="50 - 60">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">50% - 60%</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="60 - 70">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">60% - 70%</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="70 - 80">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">70% - 80%</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="80 - 90">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">80% - 90%</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="90 - 100">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">90% - 100%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-group" data-filter-name="featuresRange">
+                            <div class="filter-name">
+                                <span class="filter-name-text">Features Range</span>
+                                <span class="filter-name-no"></span>
+                                <span class="filter-clear-text">clear</span>
+                                <span class="filter-collapse-icon" data-collapse-state="collapsed">[+]</span>
+                            </div>
+                            <div class="filter-value-group">
+                                <div class="filter-value" data-filter-value="0 - 1">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">0 - 1</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="1 - 2">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">1 - 2</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="2 - 3">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">2 - 3</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="3 - 4">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">3 - 4</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="4 - 5">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">4 - 5</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="5 - 6">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">5 - 6</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="6 - 7">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">6 - 7</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="7 - 8">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">7 - 8</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="8 - 9">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">8 - 9</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="9 - 10">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">9 - 10</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-group" data-filter-name="designRange">
+                            <div class="filter-name">
+                                <span class="filter-name-text">Design Range</span>
+                                <span class="filter-name-no"></span>
+                                <span class="filter-clear-text">clear</span>
+                                <span class="filter-collapse-icon" data-collapse-state="collapsed">[+]</span>
+                            </div>
+                            <div class="filter-value-group">
+                                <div class="filter-value" data-filter-value="0 - 1">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">0 - 1</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="1 - 2">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">1 - 2</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="2 - 3">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">2 - 3</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="3 - 4">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">3 - 4</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="4 - 5">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">4 - 5</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="5 - 6">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">5 - 6</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="6 - 7">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">6 - 7</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="7 - 8">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">7 - 8</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="8 - 9">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">8 - 9</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="9 - 10">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">9 - 10</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-group" data-filter-name="performanceRange">
+                            <div class="filter-name">
+                                <span class="filter-name-text">Performance Range</span>
+                                <span class="filter-name-no"></span>
+                                <span class="filter-clear-text">clear</span>
+                                <span class="filter-collapse-icon" data-collapse-state="collapsed">[+]</span>
+                            </div>
+                            <div class="filter-value-group">
+                                <div class="filter-value" data-filter-value="0 - 1">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">0 - 1</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="1 - 2">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">1 - 2</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="2 - 3">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">2 - 3</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="3 - 4">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">3 - 4</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="4 - 5">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">4 - 5</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="5 - 6">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">5 - 6</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="6 - 7">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">6 - 7</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="7 - 8">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">7 - 8</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="8 - 9">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">8 - 9</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="9 - 10">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">9 - 10</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-group" data-filter-name="noOfStores">
+                            <div class="filter-name">
+                                <span class="filter-name-text">Number of Stores</span>
+                                <span class="filter-name-no"></span>
+                                <span class="filter-clear-text">clear</span>
+                                <span class="filter-collapse-icon" data-collapse-state="collapsed">[+]</span>
+                            </div>
+                            <div class="filter-value-group">
+                                <div class="filter-value" data-filter-value="0">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">0</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="1">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">1</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="2">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">2</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="3">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">3</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="4">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">4</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="5">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">5</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="6">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">6</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="7">
+                                        <input type="checkbox" class="filter-select">
+                                        <span class="filter-value-text">7</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="8">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">8</span>
+                                </div>
+                                <div class="filter-value" data-filter-value="9">
+                                    <input type="checkbox" class="filter-select">
+                                    <span class="filter-value-text">9</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content">
+                    <div class="main-title-content">
+                        <span class="filter-show-icon">***</span>
+                        <span class="main-title-text">Group Based on: </span>
+                        <select class="main-title-select">
+                            <option value="brand">Brand</option>
+                            <option value="priceRange">Price</option>
+                            <option value="popularityRange">Popularity</option>
+                            <option value="featuresRange">Features</option>
+                            <option value="designRange">Design</option>
+                            <option value="performanceRange">Performance</option>
+                            <option value="noOfStores">No of stores</option>
+                        </select>
+                    </div>
+                    <div class="main-chart-content">
+                        <div class="chart-holder"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <!-- Loading Dependencies -->
+    <script src="libs/d3/d3.min.js"></script>
+    <script src="libs/underscore/underscore.js"></script>
+    <!-- Loading Force Bubble Chart -->
+    <script src="js/forceBubbleChart.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <script>
+        var chartData, fbChart, filterExp = {};
+        
+        //Fetch mobile phones data.
+        d3.json("data/mobiles.json", function (error, data) {
+            
+            //Convert raw data into categorized data.
+            chartData = _(data).map(function (datum) {
+                var storesNo = datum.stores.length.toString();
+                return {
+                    id: datum.id,
+                    model: datum.model,
+                    brand: datum.brand,
+                    name: datum.name,
+                    noOfStores: storesNo,
+                    popularity: datum.stats.popularity,
+                    popularityRange: utils.getRange(datum.stats.popularity, 10),
+                    design: datum.stats.design,
+                    designRange: utils.getRange(datum.stats.design, 1),
+                    features: datum.stats.features,
+                    featuresRange: utils.getRange(datum.stats.features, 1),
+                    performance: datum.stats.performance,
+                    performanceRange: utils.getRange(datum.stats.performance, 1),
+                    price: datum.stores[0].price,
+                    priceRange: utils.getRange(datum.stores[0].price, 5000)
+                };
+            });
+            
+            //Creates a Force Bubble Chart passing the mandatory parameters.
+            fbChart = new ForceBubbleChart({
+                bindto: ".chart-holder",    //Hook where chart will be rendered.
+                width: 676, //Width of chart svg.
+                height: 530,    //Height of chart svg.
+                data: chartData,    //Initial data for the chart.
+                uniqueProperties: ["id"],   //Unique key for a data row. Can be composite as well.
+                tooltipProperties: ["name", "price"],   //Properties to be shown in tooltip information.
+                classifier: "brand",    //Initial classifier. The property that is used to categorize data.
+                bubbleSize: "price",    //Property mapped to the radius/size of the bubble.
+                bubbleColour: "brand"   //Property mapped to the colour of the bubble.
+            }); 
+        });
+        
+        var utils = {
+            
+            //Returns a string showing the range in which 'val' belong in series of 'step'(s).
+            getRange: function (val, step) {
+                var lowerIndex = Math.floor(val/step) * step,
+                    upperIndex = lowerIndex + step;
+                return lowerIndex + " - " + upperIndex;
+            },
+            
+            //Returns the filtered 'data' based on the 'filterExp'.
+            //'filterExp' is a hashmap of name values array.
+            //Eg: {
+            //      brand: ['Samsung', 'Nokia'],
+            //      price: ['1000 - 2000']
+            //    }
+            getFilteredData: function (data, filterExp) {
+                return _(data)
+                    .chain()
+                    .filter(function(datum) {
+                        return _(filterExp)
+                            .chain()
+                            .map(function (afilterVals, filterProp) {
+                                return !afilterVals.length || _.contains(afilterVals, datum[filterProp]);
+                            })
+                            .every(_.identity)
+                            .value();
+                    })
+                    .value();
+            },
+            
+            //Returns the updated 'filterExp' after applying change in 'filterTermObj'
+            //'filterTermObj' has a name, value and boolean to indicate it is remove or add operation.
+            //Eg: filterTermObj = {
+            //                      name: 'brand',
+            //                      value: 'Samsung',
+            //                      add: true
+            //                  }
+            // adds 'Samsung' into brands array.
+            updateFilterExp: function(filterExp, filterTermObj) {
+                var filterTerm = filterExp[filterTermObj.name];
+                switch(filterTermObj.add) {
+                case true: if (!filterTerm) {
+                        filterExp[filterTermObj.name] = [filterTermObj.value];
+                        break;
+                    } else {
+                        filterTerm.push(filterTermObj.value);
+                        break;
+                    }
+                case false: if (!filterTerm) {
+                        break;
+                    } else {
+                        filterTerm.splice(filterTerm.indexOf(filterTermObj.value), 1);
+                        break;
+                    }
+                }
+                return filterExp;                    
+            }
+        };
+        
+        //Event Listener for main-title select box.
+        //Set the selected category to the chart using 'setClassifier' API.
+        d3.select(".main-title-select").on('change', function () {
+            var sClassifier = this.selectedOptions[0].value;
+            fbChart.setClassifier(sClassifier);
+        });
+        
+        //Event Listener for checkboxes in filter section.
+        //Filters the data based on applied filters.
+        //Set the filtered data on the chart using 'setData' API.
+        d3.selectAll(".filter-select").on('change', function () {
+            var filterGroupEle = this.parentElement.parentElement.parentElement,
+                sFilterValue = this.parentElement.dataset["filterValue"],
+                sFilterName = filterGroupEle.dataset["filterName"],
+                bFilterState = this.checked,
+                clearTextEle = filterGroupEle.getElementsByClassName("filter-clear-text")[0],
+                noDisplayEle = filterGroupEle.getElementsByClassName("filter-name-no")[0]
+                nCheckedEles = _(filterGroupEle.getElementsByClassName("filter-select"))
+                    .filter(function (ele) {
+                        return ele.checked;
+                    })
+                    .length;
+            
+            filterExp = utils.updateFilterExp(filterExp, {
+                name: sFilterName,
+                value: sFilterValue,
+                add: bFilterState
+            });
+            
+            fbChart.setData(utils.getFilteredData(chartData, filterExp));
+            
+            if (nCheckedEles) {
+                clearTextEle.style.cssText += "display: inline";
+                noDisplayEle.textContent = ["(", nCheckedEles, ")"].join("");
+                noDisplayEle.style.cssText += "display: inline";
+            } else {
+                clearTextEle.style.cssText += "display: none";
+                noDisplayEle.style.cssText += "display: none";
+            }
+        });
+        
+        //Event Listener for clear text in filter section.
+        //Remove all the filters on corresponding filter name and sets the data on the chart.
+        d3.selectAll(".filter-clear-text").on('click', function () {
+            var filterValueGroupEle = this.parentElement.nextElementSibling,
+                filterSelectEles = filterValueGroupEle.getElementsByClassName("filter-select"),
+                sfilterName = filterValueGroupEle.parentElement.dataset["filterName"],
+                clearTextEle = filterValueGroupEle.parentElement.getElementsByClassName("filter-clear-text")[0],
+                noDisplayEle = filterValueGroupEle.parentElement.getElementsByClassName("filter-name-no")[0];
+            
+            delete filterExp[sfilterName];
+            
+            fbChart.setData(utils.getFilteredData(chartData, filterExp));
+            
+            _(filterSelectEles).each(function (ele) {ele.checked = false;});
+            clearTextEle.style.cssText += "display: none";
+            noDisplayEle.style.cssText += "display: none";
+                
+        });
+        
+        //Event Listener for expand [+]/collapse[-] icons.
+        d3.selectAll(".filter-collapse-icon").on('click', function () {
+            var bIsCollapsed = this.dataset["collapseState"] === "collapsed",
+                filterValueGroupEle = this.parentElement.nextElementSibling;
+            switch (bIsCollapsed) {
+            case true: var expandedFilterValueGroupEle = d3.select("[data-collapse-state=expanded]")[0][0];
+                    expandedFilterValueGroupEle && expandedFilterValueGroupEle.click();
+                    this.textContent = "[-]";
+                    this.dataset["collapseState"] = "expanded";
+                    filterValueGroupEle.style.cssText += "height: 220px;";
+                    break;
+            case false: this.textContent = "[+]";
+                    this.dataset["collapseState"] = "collapsed";
+                    filterValueGroupEle.style.cssText += "height: 0px;";
+                    break;
+            }
+            
+        });
+        
+        //Event Listener for filter hide[***] icon
+        d3.select(".filter-hide-icon").on('click', function () {
+            d3.select('.main-content')[0][0].style.cssText += "width: 976px";
+            d3.select('.filter-content')[0][0].style.cssText += "width: 0px;";
+            setTimeout(function () {
+                d3.select(".filter-content")[0][0].style.cssText += "display: none";
+                d3.select(".filter-hide-icon")[0][0].style.cssText += "display: none";
+                d3.select(".filter-show-icon")[0][0].style.cssText += "display: inline";
+            }, 500);
+            fbChart.setWidth(960);
+        });
+        
+        //Event Listener for filter show[***] icon
+        d3.select(".filter-show-icon").on('click', function () {
+            d3.select('.main-content')[0][0].style.cssText += "width: 700px";
+            d3.select('.filter-content')[0][0].style.cssText += "width: 280px;";
+            setTimeout(function () {
+                d3.select(".filter-content")[0][0].style.cssText += "display: block";
+                d3.select(".filter-show-icon")[0][0].style.cssText += "display: none";
+                d3.select(".filter-hide-icon")[0][0].style.cssText += "display: inline";
+            }, 250);
+            fbChart.setWidth(676);
+        });
+        
+    </script>
+</html>
