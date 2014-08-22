@@ -1,7 +1,9 @@
 Force Bubble Chart
 ==================
 
-It is a [d3](http://d3js.org/) based **Interactive Bubble Chart.**
+Force Bubble Chart is a [d3](http://d3js.org/) based **Interactive Bubble Chart.**
+
+Force Bubble Chart is a simple yet powerful data visualization capable of solving a lot of day-to-day life problems. Relating multiple dimensions using a *classifier* and showing *elegant transition* during enter or exit of data helps in getting more insights out of the data and makes the chart stand out from the rest of its likes.
 
 Force Bubble Chart is different from normal Bubble Charts, which are plotted against two axes.
 Force Bubble Chart accepts the dimension in the form of a `classifier`.
