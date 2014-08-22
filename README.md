@@ -10,6 +10,15 @@ Force Bubble Chart accepts the dimension in the form of a `classifier`.
 
 ---
 
+![ForceBubbeChart-FilterUseCase](https://raw.githubusercontent.com/RithwikAnand/Force-Bubble-Chart/master/snapshots/ForceBubbeChart-FilterUseCase.PNG)
+
+The above snapshot is from a demo page where the Force Bubble Chart is used to visualize **Product Filtering**.
+This is a common use case found in all e-commerce websites like [eBay](http://ebay.com), [amazon](http://amazon.com), [flipkart](http://flipkart.com) made easy using **Force Bubble Chart**.
+
+Here is the [link to the demo.](http://RithwikAnand.github.io/Force-Bubble-Chart)
+
+---
+
 Below given is a **sample constructor** of `ForceBubbleChart`:
 
 ```javascript
